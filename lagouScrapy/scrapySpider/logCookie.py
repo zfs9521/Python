@@ -6,7 +6,7 @@ def loginCookie():
     driver.get("https://passport.lagou.com/login/login.html")
     time.sleep(5)
     driver.find_element_by_css_selector('div[data-propertyname="username"] input').send_keys('17864309751')
-    driver.find_element_by_css_selector('div[data-propertyname="password"] input').send_keys('zfs9521.')
+    driver.find_element_by_css_selector('div[data-propertyname="password"] input').send_keys('xxxxxxx')
     driver.find_element_by_css_selector('div[data-propertyname="submit"] input').click()
     time.sleep(3)
     cookieDict={}
